@@ -1,5 +1,55 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-priority (2.0.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
+  * Install the upstream changelog automatically.
+  * Use dh-sequence-python3.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 24 Dec 2022 18:13:49 +0100
+
+python-priority (1.3.0-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 18:36:03 +0100
+
+python-priority (1.3.0-4) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Set field Upstream-Name in debian/copyright.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 03 Jun 2022 23:23:48 -0400
+
+python-priority (1.3.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Use debhelper-compat instead of debian/compat.
+  * d/control: Remove trailing whitespaces.
+  * d/control: Set Vcs-* to salsa.debian.org.
+  * d/watch: Use https protocol.
+  * Bump standards version to 4.4.0 (no changes).
+  * Bump debhelper compat level to 12.
+
+ -- Ondřej Nový <onovy@debian.org>  Thu, 01 Aug 2019 12:31:25 +0200
+
+python-priority (1.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop Python 2 support.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 26 Jul 2019 21:30:17 +0200
+
+python-priority (1.3.0-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 11 Aug 2018 13:00:46 +0200

@@ -1,0 +1,4 @@
+# please also check https://pypi.debian.net/priority/watch
+version=3
+opts=uversionmangle=s/(rc|a|b|c)/~$1/ \
+https://pypi.debian.net/priority/priority-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
